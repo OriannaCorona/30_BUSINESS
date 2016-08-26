@@ -1,22 +1,75 @@
 /*header*/
 .fondoheader{
-	background-image: url(../image/large.jpg);
+	background-image: url("../image/large.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 20%;
+}
+.fondonegro{
 	background: rgba(0,0,0,0.5);
+	background-size: cover;
+}
+.logo{
+	margin: 5%;
+}
+.fondoazul{
+	background: rgba(75,155,213,0.5);
+	background-size: cover;
+	height: 150px;
 }
 .jumbotron{
 	color: white;
 	background-color: transparent;
-	margin: 15% 0%;
+	margin: 10% 0% 5% 0%;
 }
 nav.navbar{
 	background-color: transparent;
 	border: transparent;
 	position: fixed;
 	z-index: 100;
+	margin-top: 5%;
 }
 li a, div a{
 	color: white !important;
+	font-size: 120%;
+}
+.fonblanc{
+	color: white;
+	margin-top: 2%;
+	text-align: right;
+}
+.pruebalo{
+	background-color: transparent;
+	border-radius: 5px 5px;
+	border: solid 1.5px white;
+	padding: 1% 2%;
+	color: white;
+	font-size: 140%;
+	margin: 12% 0% 0% 10%;
+}
+/*section 1*/
+.azul-claro{
+	color: #81daf5;
+	margin: 5% 0% 7% 0%;
+}
+.azul{
+	color: #81bef7;
+}
+.icon{
+	font-size: 200%;
+	padding: 10%;
+	box-shadow: 2px 2px 5px #999;	
+}
+h4{
+	margin: 20% 0% 0% 0%;
+}
+.azul-obs{
+	color: #045fb4;
+}
+.separador{
+	margin: 10% 0% 5% 46.5%;
+}
+/*section 2*/
+.limite{
+	width: 300%;
+	margin: -8.8% 0% 10% 0%;
 }
