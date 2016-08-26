@@ -1,0 +1,22 @@
+/*header*/
+.fondoheader{
+	background-image: url(../image/large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20%;
+	background: rgba(0,0,0,0.5);
+}
+.jumbotron{
+	color: white;
+	background-color: transparent;
+	margin: 15% 0%;
+}
+nav.navbar{
+	background-color: transparent;
+	border: transparent;
+	position: fixed;
+	z-index: 100;
+}
+li a, div a{
+	color: white !important;
+}
