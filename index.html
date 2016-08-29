@@ -7,14 +7,16 @@
 	  	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css.queries.css">
 		<link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
 		<div class="container-fluid"><!--container general-->
 			<header class="fondoheader">
 				<div class="row fondonegro"><!--row 1 header-->
-					<div class="col-xs-6 col-lg-6"><!--col-->
-		            	<img src="image/user.png" alt="logo" class="logo">
+					<div class="col-xs-6 col-lg-6 animated wobble infinite"><!--col-->
+		            	<img src="image/user.png" alt="logo" class="logo img-responsive">
 		          	</div>
 					<div class="col-xs-6 col-lg-6">
 						<nav class="navbar navbar-static-top navbar-default" role="navigation"><!--menu-->
@@ -31,7 +33,7 @@
 									<li><a href="#ofrece">¿Qué me ofrece?</a></li>
 									<li><a href="#funciona">¿Cómo funciona?</a></li>
 									<li><a href="#usar">¿Por qué usarlo?</a></li>
-									<li><a href="#contactanos">Contactanos</a></li>
+									<li><a href="contact.html" target="_blanck">Contactanos</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -43,12 +45,12 @@
 					</div>
 				</div><!--row header 2 cierre-->
 				<div class="row fondoazul"><!--row header 3-->
-					<div class="col-xs-6 col-lg-6 fonblanc">
+					<div class="col-xs-12 col-lg-6 fonblanc">
 						<h3>PRUEBA GRATUITA</h3>
 						<p>Obten un video gratis de 5 minutos.</p>
 					</div>
-					<div class="col-xs-6 col-lg-6">
-						<button class="pruebalo">Pruebalo gratis</button><!--a este hay que aplicarle el modal-->
+					<div class="col-xs-12 col-lg-6 animated flash infinite">
+						<button class="pruebalo" type="button" data-toggle="modal" data-target="#myModal">Pruebalo gratis</button><!--a este hay que aplicarle el modal-->
 					</div>
 				</div><!--row header 3 cierre-->
 			</header><!--header cierre-->
@@ -59,20 +61,20 @@
 					</div>
 				</div>
 				<div class="row text-center">
-					<div class="col-xs-12 col-lg-4">
+					<div class="col-xs-12 col-lg-4 animated bounce infinite">
 						<span class="icon-video icon azul-claro img-circle"></span>
 						<h4 class="azul-obs">Pruebalo<br>gratis</h4>
-						<p>Obtén un primer video screencast de un<br>usuario navegando tu página.</p>
+						<p class="textserv">Obtén un primer video screencast de un<br>usuario navegando tu página.</p>
 					</div>
-					<div class="col-xs-12 col-lg-4">
+					<div class="col-xs-12 col-lg-4 animated bounce infinite">
 						<span class="icon-clock icon azul-claro img-circle"></span>
 						<h4 class="azul-obs">Compra el<br>servicio completo</h4>
-						<p>Si te gustó compra nuestro servicio<br>completo que incluye / videos 7 videos y feedback.</p>
+						<p class="textserv">Si te gustó compra nuestro servicio<br>completo que incluye / videos 7 videos y feedback.</p>
 					</div>
-					<div class="col-xs-12 col-lg-4">
+					<div class="col-xs-12 col-lg-4 animated bounce infinite">
 						<span class="icon-documents icon azul-claro img-circle"></span>
 						<h4 class="azul-obs">Obtén el resultado<br>en un día</h4>
-						<p>Te haremos llegar los videos y el feedback<br>completo el mismo día.</p>
+						<p class="textserv">Te haremos llegar los videos y el feedback<br>completo el mismo día.</p>
 					</div>
 				</div>
 			</section><!--section 1 cierre-->
@@ -81,7 +83,7 @@
 			<section id="funciona"><!--section 2-->
 				<div class="row">
 					<div class="col-xs-12 col-lg-6">
-						<h3 class="azul-claro text-center">Ejemplo de</h3>
+						<h3 class="azul-claro text-center izqres">Ejemplo de</h3>
 						<img src="image/logo-2.jpg" id="logopeque" alt="logo">
 						<p class="video">En este video te damos un ejemplo de un integrante de nuestro panel evaluando<br>la experencia en el uso de<br><a href="www.google.com" class="azul-obs">mimediamanzana.com</a><br>El objetivo de User Testing 360 es identificar situaciones de los<br>usuarios en su web y plantear soluciones, que garanticen una experiencia de<br>uso satisfactoria.</p>
 						<img src="image/flecha.png" alt="flecha" id="flecha">
@@ -92,14 +94,13 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-lg-5">
-						<img src="image/sec-2.jpg" alt="imagen 2" id="workimg">
+						<img src="image/sec-2.jpg" alt="imagen 2" id="workimg" class="img-responsive">
 					</div>
-					<div class="col-xs-12 col-lg-1">
+					<div class="hidden-xs col-lg-1">
 						<span class="icon-pencil icon2 img-circle"></span>
 						<span class="icon-tools-2 icon2 img-circle"></span>
 						<span class="icon-search icon2 img-circle"></span>
 						<img src="image/separador.png" alt="separador" class="separador2">
-						<hr class="linea">
 					</div>
 					<div class="col-xs-12 col-lg-6">
 						<h3 class="mrg5">Lo quiero ¿Qué hago?</h3>
@@ -123,7 +124,7 @@
 					<div class="col-xs-12 col-lg-6">
 						<h3 class="azul-claro porque">Por qué usar</h3>
 						<img src="image/logo-2.jpg" id="logopeque2" alt="logo">
-						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio<br>para llegar a millones de personas en segundos, pero ¿qué pasa si el producto<br>digital que ofreces no es bueno o es confuso? Pierdes esta enorme<br>oportunidad. Con<a href="www.google.com" class="azul-obs"> User Testing360</a><br>puedes entender la experiencia de uso de<br>tu página o producto digital y mejorarla para que cubra todas las necesidades<br>de tus usuarios. Con<a href="www.google.com" class="azul-obs"> User Testing360</a> podras entender:</p>
+						<p class="era">En la era en la que nos encontramos, la web se ha convertido en el mejor sitio<br>para llegar a millones de personas en segundos, pero ¿qué pasa si el producto<br>digital que ofreces no es bueno o es confuso? Pierdes esta enorme<br>oportunidad. Con<a href="www.google.com" class="azul-obs"> User Testing360</a><br>puedes entender la experiencia de uso de<br>tu página o producto digital y mejorarla para que cubra todas las necesidades<br>de tus usuarios. Con<a href="www.google.com" class="azul-obs"> User Testing360</a> podras entender:</p>
 						<ul>
 							<li>Cómo tu publico objetivo verdaderamente usa tu producto.</li>
 							<li>Qué se complica al navegar en tu producto.</li>
@@ -141,16 +142,16 @@
 						<p>Obten un video gratis de 5 minutos.</p>
 					</div>
 					<div class="col-xs-6 col-lg-6">
-						<button class="pruebalo">Pruebalo gratis</button><!--a este hay que aplicarle el modal-->
+						<button class="pruebalo2 animated flash infinite" type="button" data-toggle="modal" data-target="#myModal">Pruebalo gratis</button><!--a este hay que aplicarle el modal-->
 					</div>
 				</div>
 			</section><!--section 3 cierre-->
 			<footer id="contactanos">
 				<div class="row fon-footer">
-					<div class="col-xs-8 col-lg-8">
+					<div class="col-xs-12 col-lg-8 animated flipInX infinite">
 						<p class="blanco">Escribenos a:<br><a href="www.google.com" class="azul-obs">experienciadeusuario.lab@gmail.com</a><br>tel: 9865-4323</p>
 					</div>
-					<div class="col-xs-4 col-lg-4 mar5">
+					<div class="col-xs-12 col-lg-4 mar5">
 						<span class="icon-facebook icon3 img-circle"></span>
 						<span class="icon-twitter icon3 img-circle"></span>
 						<p class="blanco">Copyright  2016-user Testing 360</p>
@@ -158,6 +159,48 @@
 				</div>
 			</footer>
 		</div><!--container general cierre-->
+		<div class="container"><!--container modal-->
+			<div class="row">
+				<div class="col-xs-12 col-lg-12">
+					<div id="myModal" class="modal fade" role="dialog"><!-- Modal -->
+					  	<div class="modal-dialog">
+					    	<div class="modal-content"><!-- Modal content-->
+					      		<div class="modal-header">
+					        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+					        		<h4 class="modal-title">Formulario User Testing360</h4>
+					      		</div>
+					      		<div class="modal-body">
+					      			<div class="row">
+					      				<div class="col-xs-4 col-lg-4">
+								    		<p><b>Nombre</b> *</p>
+								    		<p><b>Email</b> *</p>
+								    		<p><b>Dejame tu URL</b> *</p>
+									    </div>
+									    <div class="col-xs-8 col-lg-8">
+									    	<input type="text" class="nombre">
+									    	<input type="text" class="email">
+									    	<textarea id="campo3" class="url"></textarea>
+									    	<button type="button" class="btn-envia" data-dismiss="modal">Enviar e-mail</button>
+									    	<input type="text" id="campo4" class="enviar">	
+									    </div>
+									</div>
+								</div>
+					      		<div class="modal-footer">
+					      			<div class="row">
+					      				<div class="col-xs-6 col-sm-6">
+							        		<p class="izq">Powered by <u>Equipo Laboratoria</u></p>
+							        	</div>
+							        	<div class="col-xs-6 col-sm-6">
+							        		<p><u>Report abuse</u></p>
+							        	</div>
+					        		</div>
+					      		</div>
+					    	</div><!-- Modal content cierre-->
+					  	</div>
+					</div><!-- Modal cierre-->
+				</div>	
+			</div>
+		</div><!--container moodal cierre-->
 		<script src="bootstrap/js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
     </body>

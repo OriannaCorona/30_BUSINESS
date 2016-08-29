@@ -37,7 +37,7 @@ li a, div a{
 	margin-top: 2%;
 	text-align: right;
 }
-.pruebalo{
+.pruebalo, .pruebalo2{
 	background-color: transparent;
 	border-radius: 5px 5px;
 	border: solid 1.5px white;
@@ -147,5 +147,103 @@ h4{
 .mar5{
 	margin-top: 1%;
 	text-align: right;
+}
+/*modal*/
+.nombre{
+	margin: 0%;
+	display: block;
+	width: 80%;
+} 
+.email, .url{
+	margin: 2% 0% 0% 0%;
+	display: block;
+	width: 80%;
+}
+#campo3{
+	width: 80%;
+	height: 80px;
+}
+.btn-envia{
+	background-color: #045fb4;
+	border: none;
+	color: white;
+	border-radius: 2px 2px;
+	padding: 0.5% 1.5%;
+	margin: 2% 0%;
+	width: 32%;
+	display: block;
+}
+.enviar{
+	margin: 0% 0% 0% 10%;
+}
+.izq{
+	text-align: left;
+}
+/*responsive*/
+@media screen and (max-width: 600px){
+	.fonblanc {
+	color: white;
+	margin-top: 2%;
+	text-align: center;
+	}
+	.pruebalo{
+	font-size: 140%;
+	margin: 2% 0% 0% 28%;
+	}
+	.icon{
+		font-size: 100%;
+	}
+	.azul-claro{
+		margin: 5% 0% 20% 0%;
+	}
+	.textserv{
+		margin: 0% 0% 15% 0%;
+	}
+	.separador{
+		margin: 10% 0% 0% 38%;
+	}
+	.izqres{
+		text-align: left;
+	}
+	#logopeque{
+		margin: -55% 0% 0% 40%;
+		width: 60%;
+		height: 100%;
+	}
+	.video{
+		text-align: center;
+		margin: 0% 0% 0% 0%;
+	}
+	#flecha{
+		transform: rotate(90deg);
+		margin: 10% 40%;
+	}
+	.limite{
+		margin: -15% 0% 20% 0%;
+	}
+	.mrg5{
+		margin-top: -10%;
+		text-align: center;
+	}
+	.porque{
+		font-size: 200%;
+	}
+	#logopeque2{
+		margin: -55% 0% 0% 50%;
+		width: 50%;
+		height: 100%;
+	}
+	.era{
+		margin-top: -15%;
+		text-align: center;
+	}
+	.pruebalo2{
+		font-size: 120%;
+		margin: 2% 0% 0% 80%;
+		height: 150%;
+	}
+	.blanco{
+		text-align: center;
+	}
 }
 

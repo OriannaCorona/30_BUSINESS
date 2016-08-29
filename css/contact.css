@@ -1,0 +1,37 @@
+/*contact*/
+.fondo{
+	background-image: url("../image/large.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+.nombre{
+	margin: 0%;
+	display: block;
+	width: 80%;
+} 
+.email, .url{
+	margin: 2% 0% 0% 0%;
+	display: block;
+	width: 80%;
+}
+#campo3{
+	width: 80%;
+	height: 80px;
+}
+.btn-envia{
+	background-color: #045fb4;
+	border: none;
+	color: white;
+	border-radius: 2px 2px;
+	padding: 0.5% 1.5%;
+	margin: 2% 0%;
+	width: 15%;
+	display: block;
+}
+.enviar{
+	margin: 0% 0% 0% 10%;
+}
+.izq{
+	text-align: left;
+}
